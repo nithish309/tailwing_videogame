@@ -1,0 +1,111 @@
+/* VideoGame.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.searchSection {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.searchSection h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.searchSection input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.searchSection button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.searchSection button:hover {
+  background-color: #0056b3;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.game {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.game img {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.game p {
+  font-size: 16px;
+  color: #666;
+}
+
+.dealsSection {
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dealsSection h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+.dealsSection .game {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+#deals {
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#deals:hover {
+  color: #0056b3;
+}
